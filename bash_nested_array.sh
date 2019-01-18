@@ -24,7 +24,7 @@ do
 # set new array with the contents of the line variable.
   arr=($line)
 # echo special message that is unique to your command.
-  echo "Removing ${arr[1]}"
+  echo "${arr[1]}"
 # run your command.
   echo "yum remove ${arr[0]}"
 done
