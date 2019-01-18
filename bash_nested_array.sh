@@ -1,5 +1,5 @@
 #!/bin/bash
-
+# credit to https://stackoverflow.com/a/23930212 user 'new-kid' provided the code that was referenced to make this.
 # backup old IFS, this should be done in case this code is added to a larger script that has other commands that use IF
 S.
 oIFS="$IFS"
